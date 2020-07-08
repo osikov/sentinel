@@ -1,0 +1,3 @@
+g++ *.cpp -shared -fPIC -o sentinel.so
+touch /tmp/.sentinel.log
+chmod 0777 /tmp/.sentinel.log
